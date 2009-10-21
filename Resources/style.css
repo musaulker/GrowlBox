@@ -1,0 +1,54 @@
+body {
+	font-family:"Lucida Grande","Trebuchet MS",sans-serif;
+	background-color:#fff;
+}
+
+#growlbox {
+  -webkit-user-drop: element;
+  background-color:#cdcdcd;
+  border:5px dashed #787878;
+  height:60px;
+  margin-bottom:10px;
+}
+
+.defcon {
+  -webkit-user-drag: element;
+  -webkit-user-select: none;
+  border:2px solid #787878;
+  height:20px;
+  padding:5px;
+  margin-bottom:5px;
+  cursor:move;
+}
+
+.defcon:-webkit-drag {
+  opacity:0.75;
+}
+
+#defcon1 {
+  background-color:red;
+}
+
+#defcon2 {
+  background-color:orange;
+}
+
+#defcon3 {
+  background-color:yellow;
+}
+
+#defcon4 {
+  background-color:blue;
+}
+
+#defcon5 {
+  background-color:green;
+}
+
+#help {
+  display:none;
+  color:#787878;
+  font-size:0.8em;
+  font-style:italic;
+  text-align:center;
+}
